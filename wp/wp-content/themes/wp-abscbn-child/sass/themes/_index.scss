@@ -1,0 +1,59 @@
+@import "variables";
+
+.top-banner {
+    border-bottom: 1px solid $font-gray;
+    padding-bottom: 40px;
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #B4051D;
+        padding: 15px;
+    }
+    .slogan {
+        padding: 40px 60px;
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            color:$font-gray;
+        }
+        p{
+            font-size: $font-sm;
+            color:$font-gray;
+        }
+    }
+}
+.first-section {
+    padding: 40px 0px;
+    .card {
+        width: 18rem;
+        border: none;
+        padding: 15px;
+        .card-body {
+            padding: 5px;
+            h4 {
+                color:$font-gray;
+            }
+            p {
+                color:$font-gray;
+                font-size: $font-sm;
+                line-height: 12px;
+            }
+        }
+        .img-border {
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            padding: 10px;
+        }
+    }
+}
+@media screen and (max-width: 960px){
+    .top-banner {
+        .slogan {
+            padding: 40px 20px;
+        }
+    }
+    .first-section {
+        padding: 0px;
+        .card {
+            width: 100%;
+        }
+    }
+}

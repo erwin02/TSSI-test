@@ -1,0 +1,73 @@
+@import "variables";
+
+.Blog{
+	h1 {
+		color: $font-red;
+	}
+	hr {
+	    border-bottom: 1px solid $font-gray;
+	}
+	.top-banner {
+		padding: 10px 0px;
+		h3 {
+			font-weight: 700;
+		}
+		.desc {
+			padding: 20px 0px;
+		}
+		.tab {
+			width: 350px;
+			.nav-tabs {
+			    position: relative;
+				border-bottom: none;
+				li {
+				    text-align: center;
+					margin-right: 25px;
+					a{
+						color: $font-gray;
+						font-weight: 600;
+					}
+				}
+				.nav-link {
+				border: none;
+				}
+				.nav-link a:hover, .nav-link.active {
+				color: $font-gray !important;
+			    border-bottom: 5px solid #00cad5;
+				}
+			}
+			.tab-content {
+			    padding: 10px 20px;
+			    background-color: #e9ebee;
+			    box-sizing: border-box;
+			    #Section1, #Section2{
+			    	div {
+		    		    line-height: 18px;
+		    		    margin-bottom: 10px;
+					    border-bottom: 1px solid #ddd;
+					    padding: 0px;
+				    	.title{
+				    		font-size: 14px;
+				    		a {
+				    			color: #000 !important;
+				    		}
+				    		a:hover{
+				    			border-bottom:1px solid $font-gray !important;
+				    		}
+				    	}
+				    	.uploaded-time {
+				    		font-size: 12px;
+				    		color: $font-gray;
+				    	}
+			    	}
+			    }
+			}
+		}
+		@media screen and (max-device-width: 735px) {
+		    .tab {
+		        display: none;
+		    }
+		}
+	}
+		
+}

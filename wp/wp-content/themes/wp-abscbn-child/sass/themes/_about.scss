@@ -1,0 +1,41 @@
+@import "variables";
+
+.About-us {
+	h1 {
+		color: $font-red;
+	}
+	hr {
+	    border-bottom: 1px solid $font-gray;
+	}
+	.top-banner {
+		padding: 20px 0px;
+		.desc {
+			font-size: $font-sm;
+            color:$font-gray;
+            padding: 0px 0px 20px;
+            border-bottom: 1px solid $font-gray;
+		}
+		.section2 {
+			.img {
+				img {
+					width: 100%;
+				}
+			}
+		}
+		.section3{
+			margin-top: 30px;
+			p {
+				font-size: $font-sm;
+            	color:$font-gray;
+			}
+
+		}
+		.section4{
+			p {
+				font-size: $font-sm;
+            	color:$font-gray;
+			}
+
+		}
+	}
+}

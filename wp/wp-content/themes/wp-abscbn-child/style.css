@@ -1,0 +1,415 @@
+/*
+Theme Name: ABS CBS News Child
+Theme URI: 
+Author: Erwin
+Author URI: 
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrap
+*/
+/* line 3, sass/themes/_index.scss */
+.top-banner {
+  border-bottom: 1px solid #676767;
+  padding-bottom: 40px;
+}
+/* line 6, sass/themes/_index.scss */
+.top-banner .carousel-control-prev-icon, .top-banner .carousel-control-next-icon {
+  background-color: #B4051D;
+  padding: 15px;
+}
+/* line 10, sass/themes/_index.scss */
+.top-banner .slogan {
+  padding: 40px 60px;
+}
+/* line 12, sass/themes/_index.scss */
+.top-banner .slogan h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #676767;
+}
+/* line 17, sass/themes/_index.scss */
+.top-banner .slogan p {
+  font-size: 14px;
+  color: #676767;
+}
+
+/* line 23, sass/themes/_index.scss */
+.first-section {
+  padding: 40px 0px;
+}
+/* line 25, sass/themes/_index.scss */
+.first-section .card {
+  width: 18rem;
+  border: none;
+  padding: 15px;
+}
+/* line 29, sass/themes/_index.scss */
+.first-section .card .card-body {
+  padding: 5px;
+}
+/* line 31, sass/themes/_index.scss */
+.first-section .card .card-body h4 {
+  color: #676767;
+}
+/* line 34, sass/themes/_index.scss */
+.first-section .card .card-body p {
+  color: #676767;
+  font-size: 14px;
+  line-height: 12px;
+}
+/* line 40, sass/themes/_index.scss */
+.first-section .card .img-border {
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 49, sass/themes/_index.scss */
+  .top-banner .slogan {
+    padding: 40px 20px;
+  }
+
+  /* line 53, sass/themes/_index.scss */
+  .first-section {
+    padding: 0px;
+  }
+  /* line 55, sass/themes/_index.scss */
+  .first-section .card {
+    width: 100%;
+  }
+}
+/* line 4, sass/themes/_about.scss */
+.About-us h1 {
+  color: #B4051D;
+}
+/* line 7, sass/themes/_about.scss */
+.About-us hr {
+  border-bottom: 1px solid #676767;
+}
+/* line 10, sass/themes/_about.scss */
+.About-us .top-banner {
+  padding: 20px 0px;
+}
+/* line 12, sass/themes/_about.scss */
+.About-us .top-banner .desc {
+  font-size: 14px;
+  color: #676767;
+  padding: 0px 0px 20px;
+  border-bottom: 1px solid #676767;
+}
+/* line 20, sass/themes/_about.scss */
+.About-us .top-banner .section2 .img img {
+  width: 100%;
+}
+/* line 25, sass/themes/_about.scss */
+.About-us .top-banner .section3 {
+  margin-top: 30px;
+}
+/* line 27, sass/themes/_about.scss */
+.About-us .top-banner .section3 p {
+  font-size: 14px;
+  color: #676767;
+}
+/* line 34, sass/themes/_about.scss */
+.About-us .top-banner .section4 p {
+  font-size: 14px;
+  color: #676767;
+}
+
+/* line 4, sass/themes/_contact.scss */
+.Contact-us h1 {
+  color: #B4051D;
+}
+/* line 7, sass/themes/_contact.scss */
+.Contact-us hr {
+  border-bottom: 1px solid #676767;
+}
+/* line 10, sass/themes/_contact.scss */
+.Contact-us .top-banner {
+  padding: 10px 0px;
+}
+/* line 13, sass/themes/_contact.scss */
+.Contact-us .top-banner .section1 .desc {
+  font-size: 18px;
+  color: #676767;
+}
+/* line 18, sass/themes/_contact.scss */
+.Contact-us .top-banner .contacts {
+  padding: 30px;
+}
+/* line 20, sass/themes/_contact.scss */
+.Contact-us .top-banner .contacts img {
+  float: left;
+}
+/* line 24, sass/themes/_contact.scss */
+.Contact-us .top-banner .visit-us {
+  padding: 0px 30px;
+  color: #676767;
+}
+/* line 27, sass/themes/_contact.scss */
+.Contact-us .top-banner .visit-us h3 {
+  font-size: 16px;
+}
+/* line 30, sass/themes/_contact.scss */
+.Contact-us .top-banner .visit-us h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 34, sass/themes/_contact.scss */
+.Contact-us .top-banner .visit-us p {
+  font-size: 14px;
+}
+
+/* line 4, sass/themes/_blog.scss */
+.Blog h1 {
+  color: #B4051D;
+}
+/* line 7, sass/themes/_blog.scss */
+.Blog hr {
+  border-bottom: 1px solid #676767;
+}
+/* line 10, sass/themes/_blog.scss */
+.Blog .top-banner {
+  padding: 10px 0px;
+}
+/* line 12, sass/themes/_blog.scss */
+.Blog .top-banner h3 {
+  font-weight: 700;
+}
+/* line 15, sass/themes/_blog.scss */
+.Blog .top-banner .desc {
+  padding: 20px 0px;
+}
+/* line 18, sass/themes/_blog.scss */
+.Blog .top-banner .tab {
+  width: 350px;
+}
+/* line 20, sass/themes/_blog.scss */
+.Blog .top-banner .tab .nav-tabs {
+  position: relative;
+  border-bottom: none;
+}
+/* line 23, sass/themes/_blog.scss */
+.Blog .top-banner .tab .nav-tabs li {
+  text-align: center;
+  margin-right: 25px;
+}
+/* line 26, sass/themes/_blog.scss */
+.Blog .top-banner .tab .nav-tabs li a {
+  color: #676767;
+  font-weight: 600;
+}
+/* line 31, sass/themes/_blog.scss */
+.Blog .top-banner .tab .nav-tabs .nav-link {
+  border: none;
+}
+/* line 34, sass/themes/_blog.scss */
+.Blog .top-banner .tab .nav-tabs .nav-link a:hover, .Blog .top-banner .tab .nav-tabs .nav-link.active {
+  color: #676767 !important;
+  border-bottom: 5px solid #00cad5;
+}
+/* line 39, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content {
+  padding: 10px 20px;
+  background-color: #e9ebee;
+  box-sizing: border-box;
+}
+/* line 44, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content #Section1 div, .Blog .top-banner .tab .tab-content #Section2 div {
+  line-height: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 0px;
+}
+/* line 49, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content #Section1 div .title, .Blog .top-banner .tab .tab-content #Section2 div .title {
+  font-size: 14px;
+}
+/* line 51, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content #Section1 div .title a, .Blog .top-banner .tab .tab-content #Section2 div .title a {
+  color: #000 !important;
+}
+/* line 54, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content #Section1 div .title a:hover, .Blog .top-banner .tab .tab-content #Section2 div .title a:hover {
+  border-bottom: 1px solid #676767 !important;
+}
+/* line 58, sass/themes/_blog.scss */
+.Blog .top-banner .tab .tab-content #Section1 div .uploaded-time, .Blog .top-banner .tab .tab-content #Section2 div .uploaded-time {
+  font-size: 12px;
+  color: #676767;
+}
+@media screen and (max-device-width: 735px) {
+  /* line 67, sass/themes/_blog.scss */
+  .Blog .top-banner .tab {
+    display: none;
+  }
+}
+
+/* line 15, sass/style.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 19, sass/style.scss */
+input[type=text], input[type=password] {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ced4da;
+}
+
+/* line 25, sass/style.scss */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* line 30, sass/style.scss */
+.bg-red .logo img {
+  max-width: 200px;
+  height: 30px;
+}
+
+/* line 34, sass/style.scss */
+.bg-red .logo span {
+  font-weight: 700;
+  color: #fff;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 39, sass/style.scss */
+  .bg-red .logo {
+    float: left;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  /* line 45, sass/style.scss */
+  .bg-red .header-social {
+    float: right;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+  }
+}
+/* line 55, sass/style.scss */
+.uni-icon {
+  font-size: 26px !important;
+  color: #fff;
+  height: 20px;
+  padding: 0px 10px;
+}
+
+/* line 61, sass/style.scss */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* line 65, sass/style.scss */
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+/* line 68, sass/style.scss */
+.navbar-light .navbar-nav a {
+  font-size: 14px;
+}
+
+/* line 71, sass/style.scss */
+.navbar-light .navbar-nav a:active, a:hover {
+  color: #ff9900 !important;
+}
+
+@media screen and (max-device-width: 650px) {
+  /* line 75, sass/style.scss */
+  .navbar .navbar-nav .nav-item-search {
+    display: none;
+  }
+
+  /* line 78, sass/style.scss */
+  .bg-red .logo {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  /* line 83, sass/style.scss */
+  .bg-red .header-social {
+    display: none;
+  }
+}
+@media screen and (max-device-width: 735px) {
+  /* line 88, sass/style.scss */
+  .navbar .navbar-nav .nav-item {
+    display: none;
+  }
+}
+/* line 92, sass/style.scss */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* line 97, sass/style.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 103, sass/style.scss */
+hr {
+  margin: 0 !important;
+}
+
+/* line 107, sass/style.scss */
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* line 111, sass/style.scss */
+.readmore a {
+  color: #ff9900 !important;
+}
+
+/* line 115, sass/style.scss */
+.box {
+  padding: 0 5px 0 35px;
+}
+
+/* line 119, sass/style.scss */
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 20px;
+}
+
+/* line 124, sass/style.scss */
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+/* line 137, sass/style.scss */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  font-size: 14px;
+  height: 70px;
+  padding-top: 30px;
+}
+/* line 143, sass/style.scss */
+footer p {
+  margin-left: 30px;
+}

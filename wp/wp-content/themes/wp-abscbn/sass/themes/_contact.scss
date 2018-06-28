@@ -1,0 +1,39 @@
+@import "variables";
+
+.Contact-us {
+	h1 {
+		color: $font-red;
+	}
+	hr {
+	    border-bottom: 1px solid $font-gray;
+	}
+	.top-banner {
+		padding: 10px 0px;
+		.section1{
+			.desc {
+				font-size: 18px;
+	            color:$font-gray;
+			}
+		}
+		.contacts {
+		    padding: 30px;
+			img {
+				float: left;
+			}
+		}
+		.visit-us {
+			 padding: 0px 30px;
+			 color: $font-gray;
+			 h3 {
+			 	font-size: 16px;
+			 }
+			 h4{
+			 	font-size: $font-sm;
+			 	font-weight: 700;
+			 }
+			 p{
+			 	font-size: $font-sm;
+			 }
+		}
+	}
+}

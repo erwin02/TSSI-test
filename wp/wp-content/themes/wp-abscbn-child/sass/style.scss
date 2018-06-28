@@ -1,0 +1,148 @@
+/*
+Theme Name: ABS CBS News Child
+Theme URI: 
+Author: Erwin
+Author URI: 
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrap
+*/
+
+@import "themes";
+@import "variables";
+
+
+body {font-family: Helvetica, Arial, sans-serif;
+overflow-x: hidden;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ced4da;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.bg-red .logo img {
+    max-width: 200px;
+    height: 30px;
+}
+.bg-red .logo span {
+    font-weight: 700;
+    color: $font-white;
+}
+@media screen and (min-width: 960px){
+    .bg-red .logo {
+        float: left;
+        text-align: left;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .bg-red .header-social {
+        float: right;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0 10px 0 0;
+    }
+}
+.uni-icon {
+    font-size: 26px !important;
+    color: $font-white;
+    height: 20px;
+    padding: 0px 10px;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color:rgba(0,0,0,.5)!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: $font-sm;
+}
+.navbar-light .navbar-nav a {
+    font-size: $font-sm;
+}
+.navbar-light .navbar-nav a:active, a:hover{
+    color:$readmore-color!important;
+}
+@media screen and (max-device-width: 650px) {
+    .navbar .navbar-nav .nav-item-search {
+        display: none;
+    }
+    .bg-red .logo {
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+    .bg-red .header-social{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 735px) {
+    .navbar .navbar-nav .nav-item {
+        display: none;
+    }
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+hr{
+    margin:0!important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.readmore a {
+    color:$readmore-color!important;
+}
+
+.box {
+    padding: 0 5px 0 35px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius:20px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}
+
+footer {
+  background-color: #343a40;
+  color:$font-white;
+  font-size:$font-sm;
+  height:70px;
+  padding-top:30px;
+  p {
+    margin-left: 30px;
+  }
+}
+
+
